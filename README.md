@@ -18,6 +18,7 @@ Both are not inluded here
 
 Running with sbt
 
+*  put openCV and imshow jars in the `lib` dir (usual sbt location for external jars) 
 * `sbt -Djava.library.path=<PATH TO OPENCV LIB>`
 * `sbt> test` or run or whatever  
 
